@@ -57,4 +57,57 @@
 # >>> len(myTup)
 # 3
 
+# python dosent have any data type as you never assign data type to variable
+# but the reference in the memory has a data type which is assigned inside
 
+# List --internal working
+# >>> l1=[1,2,3]
+# >>> l2=l1
+# >>> l1
+# [1, 2, 3]
+# >>> l2
+# [1, 2, 3]
+# >>> l1[0]=44
+# >>> l1
+# [44, 2, 3]
+# >>> l2
+# [44, 2, 3]
+# >>> p1=[1,2,3]
+# >>> p2=p1
+# >>> p2=[1,2,3]
+# >>> p1[0]=45
+# >>> p1
+# [45, 2, 3]
+# >>> p2
+# [1, 2, 3]
+# >>> 
+
+
+# >>> h1 = [1,2,3]
+# >>> h2 = h1[:]    //slicing
+# >>> h2
+# [1, 2, 3]
+# >>> h1[0] = 65
+# >>> h1
+# [65, 2, 3]
+# >>> h2
+# [1, 2, 3]
+
+# >>> n=[1,2,3]
+# >>> n
+# [1, 2, 3]
+# >>> m=n
+# >>> m
+# [1, 2, 3]
+# >>> n
+# [1, 2, 3]
+# >>> m==n
+# True          //Objects are same
+# >>> m is n 
+# True          //References are same 
+# >>> n=m[:]
+# >>> m==n
+# True          //here still the Objects are same
+# >>> m is n 
+# False         //References are different
+# >>> 
