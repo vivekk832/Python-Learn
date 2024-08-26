@@ -5,3 +5,7 @@ def chai(n):
 
 chai(4)
 chai("lemon tea")
+chai1="lemon tea"
+chai2="ginger tea"
+chai3= "masala tea"
+
