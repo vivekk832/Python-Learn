@@ -1,8 +1,8 @@
 inp_number = 10
 
-ans =1
+fact =1
 while inp_number >0 :
-    ans *= inp_number
+    fact *= inp_number
     inp_number-=1
 
-print(ans)
+print(fact)
