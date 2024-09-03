@@ -6,7 +6,7 @@ def timer(func):
         
         result = func(*args,**kwargs)
         end = time.time()
-        print(f"{func.__name__} ran in {end-start} time")
+        print(f"{func. __name__} ran in {end-start} time")
         return result
 
     return wrapper
@@ -15,4 +15,5 @@ def timer(func):
 def example_function(n):
     time.sleep(n)
 
-example_function(2)
+example_function(10)
+
